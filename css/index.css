@@ -1,0 +1,49 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+}
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+}
+
+.heading__img {
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  width: auto;
+  height: 50vh;
+  /* background-color: aqua; */
+}
+
+.heading__img--1 {
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
+
+.list {
+  padding: 2rem 5rem;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+footer {
+  padding: 10rem;
+  width: 100%;
+  min-height: 30vh;
+  font-size: 1.5rem;
+  /* background-color: red; */
+}
